@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#search-section {
+    margin-bottom: 2rem;
+}
+
+#search-input {
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#search-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#recipe-list, #favorites-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recipe-list li, #favorites-list li {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#recipe-list li:hover, #favorites-list li:hover {
+    background-color: #f0f0f0;
+}
+
+#recipe-details {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+#favorite-button, #adjust-servings {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#servings-adjuster {
+    margin-top: 1rem;
+}
+
+#servings-input {
+    width: 50px;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
